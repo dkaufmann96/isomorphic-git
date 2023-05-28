@@ -52,7 +52,7 @@ import { join } from '../utils/join.js'
  * import { TREE, WORKDIR, STAGE } from 'isomorphic-git'
  * ```
  *
- * These functions return opaque handles called `Walker`s.
+ * These functions return opaque handles called `Walkers`.
  * The only thing that `Walker` objects are good for is passing into `walk`.
  * Here are the three `Walker`s passed into `walk` by the `statusMatrix` command for example:
  *
